@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="cadastroimoveis.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="imoveis.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="imoveis.aspx.cs">
+      <DependentUpon>imoveis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="imoveis.aspx.designer.cs">
+      <DependentUpon>imoveis.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
