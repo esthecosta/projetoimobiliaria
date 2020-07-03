@@ -6,9 +6,9 @@
 <head runat="server">
     <title></title>
 </head>
-<body style="height: 418px">
+<body style="height: 495px">
     <form id="form1" runat="server">
-        <div style="height: 445px">
+        <div style="height: 488px">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label1" runat="server" Text="Cadastro de Imóvel"></asp:Label>
             <br />
@@ -66,6 +66,10 @@
             <asp:Label ID="lbldadosimovel" runat="server" Font-Overline="True" Font-Underline="True" Text="DADOS DO IMÓVEL"></asp:Label>
             <br />
             <br />
+&nbsp;<asp:Label ID="lblid" runat="server" Text="ID:  "></asp:Label>
+            <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
+            <br />
+            <br />
             <asp:Label ID="lbllogradouroimovel" runat="server" Text="Logradouro:  "></asp:Label>
             <asp:TextBox ID="txtlogradouroimovel" runat="server" Width="268px"></asp:TextBox>
 &nbsp;
@@ -87,6 +91,10 @@
 &nbsp;
             <asp:Label ID="lblcepimovel" runat="server" Text="CEP:  "></asp:Label>
             <asp:TextBox ID="txtcepimovel" runat="server"></asp:TextBox>
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnlista" runat="server" Text="Acessar Lista de Imóveis" />
         </div>
     </form>
 </body>
