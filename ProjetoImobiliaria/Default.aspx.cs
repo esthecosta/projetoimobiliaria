@@ -25,6 +25,17 @@ namespace ProjetoImobiliaria
             {
                 Response.Redirect("cadastroimoveis.aspx");
             }
+
+            //Conexao com o Banco de Dados
+            ProjetoImobiliariaEntities conexao = new ProjetoImobiliariaEntities();
+
+            usuarios user =
+            conexao.dbousuarios.FirstOrDefault(
+                linha => linha.login.equals(usuario) && linha.senha.equals(senha)
+
+                );
+            
+
         }
     }
 }
